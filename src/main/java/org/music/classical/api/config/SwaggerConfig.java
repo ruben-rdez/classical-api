@@ -13,7 +13,10 @@ import io.swagger.v3.oas.annotations.servers.Server;
         version = "1.0.0",
         description = "API for managing classical music artists, compositions, and performances."
     ),
-    servers = @Server(url = "http://localhost:8080", description = "Local server")
+    servers = {
+        @Server(url = "http://localhost:8080", description = "Local server"),
+        @Server(url = "http://52.14.18.232:8080", description = "Production server")
+    }
 )
 public class SwaggerConfig {
 }
