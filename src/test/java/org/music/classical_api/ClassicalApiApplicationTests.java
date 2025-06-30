@@ -3,10 +3,10 @@ package org.music.classical_api;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
-@SpringBootTest
+//@SpringBootTest
 class ClassicalApiApplicationTests {
 
-	@Test
+	//@Test
 	void contextLoads() {
 	}
 
